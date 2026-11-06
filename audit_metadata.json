@@ -1,0 +1,36 @@
+{
+  "source_repo": "ApiLogicServer/ApiLogicServer-src",
+  "source_url": "https://github.com/ApiLogicServer/ApiLogicServer-src",
+  "audit_date": "2026-11-06T10:01:36.937309",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 3,
+  "severity_breakdown": {
+    "HIGH": 3
+  },
+  "findings": [
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "api_logic_server_cli/prototypes/manager/samples/modernization/demo_eai_native/tests/features/steps/steps.py",
+      "line": 89
+    },
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "api_logic_server_cli/prototypes/manager/samples/modernization/demo_eai_native/tests/features/steps/steps.py",
+      "line": 101
+    },
+    {
+      "id": "PY-PATH-001",
+      "name": "Path traversal via unsanitized input",
+      "severity": "HIGH",
+      "cwe": "CWE-22",
+      "file": "api_logic_server_cli/prototypes/manager/samples/modernization/demo_eai_native/tests/features/steps/steps.py",
+      "line": 163
+    }
+  ]
+}
